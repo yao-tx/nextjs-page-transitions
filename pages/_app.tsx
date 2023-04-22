@@ -7,6 +7,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
     <AnimatePresence
       mode="wait"
       initial={true}
+      onExitComplete={() => window.scrollTo(0, 0)}
     >
       <Component
         {...pageProps}

@@ -24,7 +24,7 @@ export default function Home({ images }: { images: ImageProps[] }) {
           {images.map((image: ImageProps) => (
             <Link 
               href={`/p/${image.id}`}
-              scroll={true}
+              scroll={false}
               key={image.id}
               className="overflow-hidden rounded-md"
             >

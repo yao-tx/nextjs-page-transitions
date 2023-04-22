@@ -25,7 +25,7 @@ const ImagePage = ({ currentImage }: { currentImage: ImageProps }) => {
       </Head>
       <Layout>
         <div className="min-h-screen">
-          <div className="sticky bg-white w-full p-10">
+          <div className="bg-white w-full p-10">
             <div className="flex flex-col md:flex-row justify-between mb-3 items-start">
               <div className="order-2 md:order-1">
                 <motion.h1
